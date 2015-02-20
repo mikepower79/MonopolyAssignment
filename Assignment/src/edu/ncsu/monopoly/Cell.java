@@ -20,9 +20,6 @@ public abstract class Cell implements IOwnable{
 	public boolean isAvailable() {
 		return available;
 	}
-	
-	@Override
-	public abstract boolean playAction(String msg);
 
 	public void setAvailable(boolean available) {
 		this.available = available;
