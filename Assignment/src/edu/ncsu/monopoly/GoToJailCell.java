@@ -12,4 +12,10 @@ public class GoToJailCell extends Cell {
 		GameMaster.instance().sendToJail(currentPlayer);
 		return true;
 	}
+
+	@Override
+	public Player getTheOwner() {
+		
+		return theOwner;
+	}
 }

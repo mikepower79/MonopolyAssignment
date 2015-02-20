@@ -1,6 +1,7 @@
 package edu.ncsu.monopoly;
 
 public class GoCell extends Cell {
+	
 	public GoCell() {
 		super.setName("Go");
 		setAvailable(false);
@@ -11,5 +12,11 @@ public class GoCell extends Cell {
 	}
 	
 	void setName(String name) {
+	}
+
+	@Override
+	public Player getTheOwner() {
+		
+		return null;
 	}
 }

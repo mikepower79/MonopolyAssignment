@@ -35,4 +35,9 @@ public class UtilityCell extends Cell {
 		}
 		return false;
 	}
+
+	@Override
+	public Player getTheOwner() {
+		return theOwner;
+	}
 }

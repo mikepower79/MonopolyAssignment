@@ -9,10 +9,6 @@ public abstract class Cell implements IOwnable{
 		return name;
 	}
 
-	public Player getTheOwner() {
-		return theOwner;
-	}
-	
 	public int getPrice() {
 		return 0;
 	}

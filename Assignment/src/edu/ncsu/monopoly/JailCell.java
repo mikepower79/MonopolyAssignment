@@ -1,6 +1,7 @@
 package edu.ncsu.monopoly;
 
 public class JailCell extends Cell {
+	
 	public static int BAIL = 50;
 	
 	public JailCell() {
@@ -10,5 +11,10 @@ public class JailCell extends Cell {
 	public boolean playAction(String msg) {
 		return true;
 		
+	}
+
+	@Override
+	public Player getTheOwner() {
+		return theOwner;
 	}
 }

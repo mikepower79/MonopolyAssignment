@@ -32,4 +32,9 @@ public class RailRoadCell extends Cell {
 		}
 		return true;
 	}
+
+	@Override
+	public Player getTheOwner() {
+		return theOwner;
+	}
 }

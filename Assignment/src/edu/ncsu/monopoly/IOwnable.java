@@ -5,4 +5,10 @@ public interface IOwnable {
 	
 	public abstract void setAvailable(boolean available);
 	
+	public abstract String getName();
+
+	public abstract Player getTheOwner();
+
+	public abstract int getPrice();
+	
 }

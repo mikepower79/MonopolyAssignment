@@ -73,4 +73,9 @@ public class PropertyCell extends Cell {
 	public void setRent(int rent) {
 		this.rent = rent;
 	}
+
+	@Override
+	public Player getTheOwner() {
+		return theOwner;
+	}
 }

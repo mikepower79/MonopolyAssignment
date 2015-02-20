@@ -9,4 +9,9 @@ public class FreeParkingCell extends Cell {
 	public boolean playAction(String msg) {
 		return true;
 	}
+
+	@Override
+	public Player getTheOwner() {
+		return theOwner;
+	}
 }
